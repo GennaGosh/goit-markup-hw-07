@@ -1,0 +1,58 @@
+.skils-list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
+    
+    .skills {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    
+    .promo {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #212121;
+      margin-bottom: 10px;
+      
+    }
+    .features {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+      color: #757575;
+      
+      /* width: 270px; */
+    }
+    .promo-features {
+      width: 270px;
+    
+    }
+    .promo-features:not(:last-child) {
+    margin-right: 30px;
+    }
+    .promo-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 270px;
+      height: 120px;
+      background: #F5F4FA;
+      margin-bottom: 30px;
+    
+    }
+    .promo-features-icon {
+    width: 70px;
+    height: 70px;
+    }
+    .description-list-registr {
+      position: relative;
+    }
