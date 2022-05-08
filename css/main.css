@@ -128,14 +128,14 @@ img {
   color: #FFFFFF;
 }
 
-.projects-list-img {
-  position: relative;
-  overflow: hidden;
-}
-
 .projects-list:hover .overlay,
 .projects-list:focus .overlay {
   transform: translateY(0%);
+}
+
+.projects-list-img {
+  position: relative;
+  overflow: hidden;
 }
 
 /* -----CONTACT FORM-------- */
@@ -167,10 +167,6 @@ img {
   border-color: #2196F3;
 }
 
-.contact-form-input:focus + .contact-form-icon {
-  fill: #2196F3;
-}
-
 .text-input {
   font-style: normal;
   font-weight: 400;
@@ -188,6 +184,10 @@ img {
   left: 12px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form-input:focus + .contact-form-icon {
+  fill: #2196F3;
 }
 
 .contact-form-input-wrapper {
@@ -272,8 +272,7 @@ img {
   margin: 0 auto;
 }
 
-.contact-form-submit-btn:hover,
-.contact-form-submit-btn:focus {
+.contact-form-submit-btn:hover, .contact-form-submit-btn:focus {
   background-color: #188CE8;
   color: #ffffff;
 }
