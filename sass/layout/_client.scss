@@ -40,16 +40,8 @@
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
+  }
   
-  }
-  .client-icon-item:hover .client-icon-link,
-  .client-icon-item:focus .client-icon-link {
-    fill: #2196F3;
-  
-  }
-  .client-icon-item:hover {
-    border: 1px solid #2196F3;
-  }
   .client-icon-item {
     display: flex;
     justify-content: center;
@@ -59,6 +51,16 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover {
+        border: 1px solid #2196F3;
+      }
+
+      &:hover .client-icon-link,
+      &:focus .client-icon-link {
+      fill: #2196F3;
+    
+      }
    
   }
   

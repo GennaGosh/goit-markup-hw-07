@@ -55,8 +55,7 @@ img {
   border-radius: 4px;
 }
 
-.model-btn:hover,
-.model-btn:focus {
+.model-btn:hover, .model-btn:focus {
   background-color: #188CE8;
   color: #ffffff;
 }
@@ -77,9 +76,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: #FFFFFF;
+.social-list-link:hover, .social-list-link:focus {
+  background-color: #2196F3;
 }
 
 .social-list-icon {
@@ -87,9 +85,9 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: #2196F3;
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #FFFFFF;
 }
 
 .logo {
@@ -320,13 +318,13 @@ img {
   cursor: pointer;
 }
 
+.modal-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-close-btn:focus .modal-close-icon,
 .modal-close-btn:hover .modal-close-icon {
   fill: #2196F3;
-}
-
-.modal-close-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header {
@@ -407,6 +405,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contact-mail:hover, .contact-mail:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
 .contact-number {
   display: flex;
   justify-content: center;
@@ -421,14 +424,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #2196f3;
-  fill: #2196f3;
-}
-
-.contact-number:hover,
-.contact-number:focus {
+.contact-number:hover, .contact-number:focus {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -681,15 +677,6 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-icon-item:hover .client-icon-link,
-.client-icon-item:focus .client-icon-link {
-  fill: #2196F3;
-}
-
-.client-icon-item:hover {
-  border: 1px solid #2196F3;
-}
-
 .client-icon-item {
   display: flex;
   justify-content: center;
@@ -699,6 +686,15 @@ img {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-icon-item:hover {
+  border: 1px solid #2196F3;
+}
+
+.client-icon-item:hover .client-icon-link,
+.client-icon-item:focus .client-icon-link {
+  fill: #2196F3;
 }
 
 .footer {
@@ -790,9 +786,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-list-link:hover .footer-social-list-icon,
-.footer-social-list-link:hover .footer-social-list-icon:focus {
-  fill: #FFFFFF;
+.footer-social-list-link:hover, .footer-social-list-link:focus {
+  background-color: #2196F3;
 }
 
 .footer-social-list-icon {
@@ -800,9 +795,9 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  background-color: #2196F3;
+.footer-social-list-link:hover .footer-social-list-icon,
+.footer-social-list-link:hover .footer-social-list-icon:focus {
+  fill: #FFFFFF;
 }
 
 .footer-form-field {
@@ -885,15 +880,15 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn:not(:last-child) {
-  margin-right: 8px;
-}
-
 .btn .item-btn:hover,
 .btn .item-btn:focus {
   background-color: #2196f3;
   color: #ffffff;
   border-radius: 4px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 8px;
 }
 
 .projec-name {
@@ -931,8 +926,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-list:hover,
-.projects-list:focus {
+.projects-list:hover, .projects-list:focus {
   box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000F, 0px 1px 1px 0px #0000001F;
 }
 
